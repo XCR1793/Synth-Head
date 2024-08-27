@@ -1,0 +1,7 @@
+MicroSD Card Adapter
+    D8 - SS
+    D7 - MOSI
+    D6 - MISO
+    D5 - CLK
+    GND - GND
+    3V3 - VCC

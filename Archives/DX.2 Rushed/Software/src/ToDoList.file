@@ -1,0 +1,34 @@
+Signed Distance Fields Based off Pixel Data:
+    https://prideout.net/blog/distance_fields/
+
+Install and use: use these to convert images from png to a bitmap
+    ImageMagick
+    Jimp
+
+
+
+Structure
+    Examples
+        Simple_HUB75.zip
+    src
+        Drivers
+            HUB75.h
+            Shader.h
+            AddressableLEDs.h
+            SDCard.h
+        Support.txt
+        main.cpp
+
+
+HUB75.h
+    All necessary drivers and things required to drive the display
+Shader.h
+    Uses what ever image inputs and exports as an image that is displable with modifications
+AddressableLEDs.h
+    All necessary drivers required to address LEDs individually (Like FASTLED and NEOPIXEL)
+SDCard.h
+    Making it easier to access the SDCard
+Support.txt
+    All supported boards and other things (like sensors)
+main.cpp
+    Main file that will be compiled
