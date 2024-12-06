@@ -1,5 +1,32 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4998c09e-38fe-44d6-8b9c-0225a8617744")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Connections\n- FFC From CPU\n- JST Power Cable from PDU\n- JST Power Cables to Displays\n- 2x FFC to Displays\n- 2x Capacitive Touch Pads\n- FFC UI Display\n- ICM20948\n- BME280\n- Photometer through visor (Opposite side of PCB)\n- RTC"
+		(exclude_from_sim no)
+		(at 38.1 38.1 0)
+		(size 53.34 24.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eee24039-34dc-4a46-8a3d-321f85791ac3")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

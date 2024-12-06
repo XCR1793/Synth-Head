@@ -2,13 +2,13 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "1910f176-637e-4046-b318-0c2bb78fb766")
+	(uuid "95088e64-ba1e-4872-a151-50c432e0a091")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "ESP32 S3 Based\n- GPS Neo 7m\n- ICM20948\n- BME280\n- FFC to-from Mask\n- FFC to-from GPU\n- FFC to-from PDU\n- Neck LED Strip\n- Cable to Back Head\n- SD Card\n- CAN Driver"
+	(text_box "BMS\n- 2S Liion\n- Battery Disableable\n- Auto Balance\n- Safe Charging\n- Battery Voltage Output\n- Thermal Runaway Protection"
 		(exclude_from_sim no)
 		(at 38.1 38.1 0)
-		(size 24.13 24.13)
+		(size 33.02 16.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -22,7 +22,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "9c44b0aa-f291-4dc9-8bf4-5540342f3449")
+		(uuid "304e372c-fd94-4e12-a893-31cbb2245f37")
 	)
 	(sheet_instances
 		(path "/"

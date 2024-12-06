@@ -1,5 +1,32 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f3f2c8ac-e187-485b-b027-f7b606c201ad")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "From Connections (FFC)\n- CPU to Mask\n\nStuff Connections (JST)\n- I2S Microphone\n- 2x Fans\n- I2C Sensors\n\nInternals\n- I2C GPIO Expander\n\nTo Connections\n- Snoot\n- CPU to Snoot UART Bypass\n- PDU Power Bypass from PDU to Snoot (JST)"
+		(exclude_from_sim no)
+		(at 38.1 38.1 0)
+		(size 48.26 33.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6a9ca5f5-72a7-4d38-89e2-51fedb57c49d")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

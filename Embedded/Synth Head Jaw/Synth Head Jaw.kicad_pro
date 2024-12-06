@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Synth Head Snoot.kicad_pro",
+    "filename": "Synth Head Jaw.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -382,11 +382,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "21ee9593-8ebd-414d-84a8-ce99618c58c3",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

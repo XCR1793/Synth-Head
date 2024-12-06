@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Synth Head Snoot.kicad_pro",
+    "filename": "Synth Head BMS.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,7 +384,7 @@
   },
   "sheets": [
     [
-      "21ee9593-8ebd-414d-84a8-ce99618c58c3",
+      "95088e64-ba1e-4872-a151-50c432e0a091",
       "Root"
     ]
   ],

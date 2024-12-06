@@ -1,5 +1,32 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "de40a474-d1c0-49e1-b685-48d303be15f7")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "FFC\n- 2x BMS\n- PDU to CPU Comms Link\n\nFrom Connections (JST)\n- 2x BMS\n- 2x USBC PD Ports (1x Cable & 1x Fin Port)\n\nTo Connections (JST)\n- CPU: 1A\n- GPU: 1.5A\n- 2x Display: 4A\n- Mask Board: 1.5A\n- Snoot: 1A\n\nFeats\n- Voltage Monitoring\n- Current Monitoring\n- USBC PD Safe Charging"
+		(exclude_from_sim no)
+		(at 25.4 25.4 0)
+		(size 48.26 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "edab3879-8660-4cf1-bc6a-c121e2a9ad56")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

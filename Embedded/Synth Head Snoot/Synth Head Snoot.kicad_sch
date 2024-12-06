@@ -1,5 +1,32 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "21ee9593-8ebd-414d-84a8-ce99618c58c3")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "ESP32 S3 Based\n- Boopable Capacitive Touch Pad (Raised by Pins)\n- Hall Effect (ESP32 Built In)\n\nStuff\n- Speaker (Audio Processing and Voice Mod)\n- Maw Top LEDS Strip\n\nConnections\n- FFC to-from Mask\n- JST Power from Mask"
+		(exclude_from_sim no)
+		(at 38.1 38.1 0)
+		(size 33.02 29.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c16fde0e-25c8-484d-bef9-8e01d802998a")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
