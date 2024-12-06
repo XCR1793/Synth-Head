@@ -5,10 +5,10 @@
 	(uuid "1910f176-637e-4046-b318-0c2bb78fb766")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "ESP32 S3 Based\n- GPS Neo 7m\n- ICM20948\n- BME280\n- FFC to-from Mask\n- FFC to-from GPU\n- FFC to-from PDU\n- Neck LED Strip\n- Cable to Back Head\n- SD Card\n- CAN Driver"
+	(text_box "ESP32 S3 Based\n- GPS: Neo M7-0-000\n- IMU: ICM20948\n- Env: BME280\n- FFC to-from Mask\n- FFC to-from GPU\n- FFC to-from PDU\n- Neck LED Strip\n- Cable to Back Head\n- SD Card\n- CAN Driver: Currently Unknown"
 		(exclude_from_sim no)
 		(at 38.1 38.1 0)
-		(size 24.13 24.13)
+		(size 34.29 24.13)
 		(stroke
 			(width 0)
 			(type default)
