@@ -2804,7 +2804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1U"
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 			(at 210.82 137.16 0)
 			(effects
 				(font
