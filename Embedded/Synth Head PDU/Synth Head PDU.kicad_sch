@@ -5,7 +5,7 @@
 	(uuid "de40a474-d1c0-49e1-b685-48d303be15f7")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "FFC\n- 2x BMS\n- PDU to CPU Comms Link\n\nFrom Connections (JST)\n- 2x BMS\n- 2x USBC PD Ports (1x Cable & 1x Fin Port)\n\nTo Connections (JST)\n- CPU: 1A\n- GPU: 1.5A\n- 2x Display: 4A\n- Mask Board: 1.5A\n- Snoot: 1A\n\nFeats\n- Voltage Monitoring\n- Current Monitoring\n- USBC PD Safe Charging"
+	(text_box "FFC\n- 2x BMS\n- PDU to CPU Comms Link\n\nFrom Connections (JST)\n- 2x BMS\n- 2x USBC PD Ports (1x Cable & 1x Fin Port)\n\nTo Connections (JST)\n- CPU: 1A\n- GPU: 1.5A\n- 2x Display: 4A\n- Mask Board: 1.5A\n- Snoot: 1A\n\nFeats\n- Voltage Sense: MCU ADC\n- Current Sense: \n- USBC PD Safe Charging"
 		(exclude_from_sim no)
 		(at 25.4 25.4 0)
 		(size 48.26 40.64)
