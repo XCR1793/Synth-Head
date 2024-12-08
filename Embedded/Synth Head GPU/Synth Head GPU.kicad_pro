@@ -398,6 +398,14 @@
     [
       "ce85dc55-1419-4d63-9264-fc9921616ee0",
       "MCP7940N-I-SN"
+    ],
+    [
+      "0f00d873-373f-40d7-ac2d-500131f6313d",
+      "3V3 Regulator"
+    ],
+    [
+      "d74ae053-ddb8-4996-adf4-24f238680e33",
+      "1V8 Regulator"
     ]
   ],
   "text_variables": {}

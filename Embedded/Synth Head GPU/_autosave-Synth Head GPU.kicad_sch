@@ -3916,6 +3916,12 @@
 		(uuid "74bc4111-13d8-412f-b0c0-706187f2c1f5")
 	)
 	(junction
+		(at 72.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1cc4c9-c853-4a9b-9b3f-2f689fea1ff7")
+	)
+	(junction
 		(at 35.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4099,6 +4105,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 68.58) (xy 72.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc23b2c-8b8b-449d-85c5-dc0a62b45524")
+	)
+	(wire
+		(pts
 			(xy 39.37 86.36) (xy 35.56 86.36)
 		)
 		(stroke
@@ -4136,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "38589e83-8ef6-4a8c-ba4b-c2fb4f9757c7")
+	)
+	(wire
+		(pts
+			(xy 72.39 68.58) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adfedc4-9f83-48a0-92cd-91e2ca7fd996")
 	)
 	(wire
 		(pts
@@ -4299,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 76.2 58.42)
+			(xy 58.42 58.42) (xy 72.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4326,6 +4352,16 @@
 			(type default)
 		)
 		(uuid "9601c3a6-2c8f-4059-bfc3-89b051fe01f0")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a26466-4804-4703-8de2-224b8183576e")
 	)
 	(wire
 		(pts
@@ -4567,10 +4603,10 @@
 		)
 		(uuid "f5da4478-04f6-401e-b29a-863e9c2ec01e")
 	)
-	(text_box "Capacitive Touch Pad not implemented\nJST Pins not configured\nVolt Regulator not implemented"
+	(text_box "Capacitive Touch Pad not implemented\nJST Pins not configured"
 		(exclude_from_sim no)
 		(at 166.37 153.67 0)
-		(size 40.64 10.16)
+		(size 40.64 5.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -4923,50 +4959,6 @@
 		(uuid "20def6ea-24e0-4768-a997-48df6701f7e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.0128 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB +"
-		(shape input)
-		(at 96.52 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21f5a559-0873-488e-800f-cb9587d012db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8552 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB -"
-		(shape input)
-		(at 96.52 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21f6026b-6fcc-400b-87a7-d0d057b17442")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8552 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,22 +5498,22 @@
 	)
 	(global_label "Photoresistor"
 		(shape input)
-		(at 151.13 33.02 0)
+		(at 166.37 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6899a9b9-85aa-4aa9-865a-7140884ff9a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7546 33.02 0)
+			(at 150.7454 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6689,7 +6681,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 33.02 270)
+		(at 88.9 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +6690,7 @@
 		(fields_autoplaced yes)
 		(uuid "10b7b50d-7cef-47d2-a517-edfad9c4a173")
 		(property "Reference" "#PWR038"
-			(at 92.71 33.02 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6699,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.33 33.0199 90)
+			(at 92.71 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 33.02 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 33.02 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 33.02 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,76 +6741,6 @@
 			(project "Synth Head GPU"
 				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10d9f9f5-57e9-4ffe-ab5b-d7a1cfe099e6")
-		(property "Reference" "R11"
-			(at 91.44 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 91.44 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.122 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8f09d707-99b5-418a-af08-c49ce52ebe6b")
-		)
-		(pin "1"
-			(uuid "afbb6f8e-29ef-4f4d-a1c5-006a56e34356")
-		)
-		(instances
-			(project ""
-				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8734,76 +8656,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 88.9 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67c91866-0fa8-4717-8e68-8e81102bc15d")
-		(property "Reference" "R12"
-			(at 91.44 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 91.44 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.122 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "caba50ee-c389-4fe0-8e63-ec56e22a4ddb")
-		)
-		(pin "2"
-			(uuid "e0de7189-dc0e-45cf-8c8f-909df7c5e009")
-		)
-		(instances
-			(project ""
-				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 151.13 270)
 		(unit 1)
@@ -10577,73 +10429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 88.9 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c60d8ea5-6fe5-4c93-99c4-8c00c3972bdc")
-		(property "Reference" "#PWR064"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 92.71 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97e75ade-737f-4a2d-9946-da264b8f6347")
-		)
-		(instances
-			(project "Synth Head GPU"
-				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 64.77 90)
 		(unit 1)
@@ -11184,7 +10969,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 96.52 35.56 270)
+		(at 88.9 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11193,7 +10978,7 @@
 		(fields_autoplaced yes)
 		(uuid "f667d892-84c7-4d8a-867f-89896c508e0d")
 		(property "Reference" "#PWR039"
-			(at 92.71 35.56 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +10987,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 100.33 35.5599 90)
+			(at 92.71 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +10996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 35.56 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +11005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 35.56 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +11014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 96.52 35.56 0)
+			(at 88.9 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11766,6 +11551,26 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "Vin" input
+			(at 76.2 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b054a93-0e40-4479-98bd-569c3eed5cd4")
+		)
+		(pin "1V8" input
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2929c9c6-ba18-414b-ba03-cd2f8a42ccb3")
 		)
 		(instances
 			(project "Synth Head GPU"
