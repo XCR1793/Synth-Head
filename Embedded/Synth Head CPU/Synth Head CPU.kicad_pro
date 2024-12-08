@@ -394,6 +394,14 @@
     [
       "37d119b6-545d-4498-ba71-93c0212203a4",
       "ICM-20948"
+    ],
+    [
+      "638cd071-320f-4cd5-94ef-e1fab6f58e5d",
+      "1V8 Regulator"
+    ],
+    [
+      "1d0effff-76fc-41ff-ab66-a4e37296e7db",
+      "3V3 Regulator"
     ]
   ],
   "text_variables": {}
