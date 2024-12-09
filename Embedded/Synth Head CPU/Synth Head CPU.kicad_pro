@@ -402,6 +402,10 @@
     [
       "1d0effff-76fc-41ff-ab66-a4e37296e7db",
       "3V3 Regulator"
+    ],
+    [
+      "1207ca90-e9e1-4517-a611-eef360ffda28",
+      "Neo-M7"
     ]
   ],
   "text_variables": {}
