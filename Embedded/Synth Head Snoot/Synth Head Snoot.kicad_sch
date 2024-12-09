@@ -1706,6 +1706,347 @@
 				)
 			)
 		)
+		(symbol "MicroSD_MSD_1_A:MSD-1-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MSD-1-A"
+				(at -10.16 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MSD-1-A_0_0"
+				(rectangle
+					(start -10.16 -27.94)
+					(end 10.16 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 17.78 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "COVER_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -20.32 0)
+					(length 5.08)
+					(name "COVER_GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -22.86 0)
+					(length 5.08)
+					(name "COVER_GND__2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -25.4 0)
+					(length 5.08)
+					(name "COVER_GND__3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Espressif:ESP32-S3-WROOM-1"
 			(pin_names
 				(offset 1.016)
@@ -4031,10 +4372,28 @@
 		(uuid "2e7f6e08-dcb3-4532-b71d-d8b470458a1b")
 	)
 	(junction
+		(at 274.32 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30ee3fc0-cf9f-4215-99c3-2242681c4d3c")
+	)
+	(junction
+		(at 274.32 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e38308-b196-45a0-b986-5e5521e8ae8d")
+	)
+	(junction
 		(at 171.45 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72eaecdc-262d-4bc7-ab10-a5cbfae604fd")
+	)
+	(junction
+		(at 274.32 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730a93aa-760a-4e7f-8658-18328acf9fb6")
 	)
 	(junction
 		(at 132.08 170.18)
@@ -4085,14 +4444,28 @@
 		(uuid "ed7c1e0a-5738-4c24-8efa-74f072544c62")
 	)
 	(junction
+		(at 274.32 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9402d07-2a82-47dd-b07d-7d51d638b72d")
+	)
+	(junction
 		(at 43.18 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4045a4-8911-4c13-8020-44180ad8b273")
 	)
 	(no_connect
+		(at 274.32 133.35)
+		(uuid "00771256-d2a5-4a21-8570-3cf7b3237233")
+	)
+	(no_connect
 		(at 241.3 55.88)
 		(uuid "01a75382-dd5f-418f-99cd-1644b45e0afb")
+	)
+	(no_connect
+		(at 274.32 130.81)
+		(uuid "123087ba-1b31-4893-b868-7d9a1e18552e")
 	)
 	(no_connect
 		(at 43.18 100.33)
@@ -4157,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "0aa38098-d626-4342-a673-9bc26f84be4d")
+	)
+	(wire
+		(pts
+			(xy 274.32 146.05) (xy 274.32 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac4951f-7683-45bb-a62b-bad4e87e6b19")
 	)
 	(wire
 		(pts
@@ -4237,6 +4620,16 @@
 			(type default)
 		)
 		(uuid "406a70b9-c861-4d89-b8cd-e9755c2d5bcb")
+	)
+	(wire
+		(pts
+			(xy 274.32 156.21) (xy 274.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c2d3bc-358e-4d4d-ab01-561bc3d4ccd7")
 	)
 	(wire
 		(pts
@@ -4400,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 148.59) (xy 274.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bf9770-96a9-47e4-88f6-b4a98653a64e")
+	)
+	(wire
+		(pts
 			(xy 45.72 77.47) (xy 43.18 77.47)
 		)
 		(stroke
@@ -4457,6 +4860,16 @@
 			(type default)
 		)
 		(uuid "e3beed48-916f-49d3-aab7-9f1d59e1a1eb")
+	)
+	(wire
+		(pts
+			(xy 274.32 151.13) (xy 274.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea318536-6403-4f71-b15c-9a6611d8392c")
 	)
 	(wire
 		(pts
@@ -4548,6 +4961,28 @@
 			)
 		)
 	)
+	(global_label "SD Card MOSI"
+		(shape input)
+		(at 274.32 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09100ec2-6d23-4037-84c2-a7cc03e3a846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.6703 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SnootRX"
 		(shape input)
 		(at 30.48 153.67 0)
@@ -4605,6 +5040,28 @@
 		(uuid "30546a0a-60a3-4594-9323-4c88018344f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.3789 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD Card CLK"
+		(shape input)
+		(at 274.32 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359f51fb-69dd-4845-9487-a7a775a36c5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.6422 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,6 +5379,28 @@
 			)
 		)
 	)
+	(global_label "SD Card CS"
+		(shape input)
+		(at 274.32 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86ae9280-7e60-41b5-98b8-247065f7c5e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.5536 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Sensors SDA"
 		(shape input)
 		(at 30.48 143.51 0)
@@ -5001,6 +5480,28 @@
 		(uuid "9687dfef-05ba-4c4c-9600-bfc759dd5252")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.6352 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD Card Detect"
+		(shape input)
+		(at 274.32 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e102ec5-d79b-4fa1-b1c7-e8d126647e04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.0613 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,6 +5656,28 @@
 		(uuid "eb21e07d-ec16-4f88-9318-056e08db614e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.9052 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD Card MISO"
+		(shape input)
+		(at 274.32 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f85a0edd-94c9-4905-a814-8393f435327a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.6703 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,6 +6675,150 @@
 			(project "Synth Head Snoot"
 				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
 					(reference "BootSW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MicroSD_MSD_1_A:MSD-1-A")
+		(at 259.08 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f94ab53-1200-4af7-a486-d16af6aa3c09")
+		(property "Reference" "J4"
+			(at 247.65 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MSD-1-A"
+			(at 247.65 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3a5b466c-2222-4727-98be-c8f86580e875")
+		)
+		(pin "2"
+			(uuid "f9d6b663-ea8f-48bb-9396-6742bd1a5d98")
+		)
+		(pin "G4"
+			(uuid "fb48d20f-eaa2-4a58-8aa1-6dac5ffd3c2c")
+		)
+		(pin "1"
+			(uuid "048f9590-6bfa-4be1-8b9c-e0e2190017e2")
+		)
+		(pin "CD"
+			(uuid "d9b62a35-0495-4804-91d5-b6e15cfede5d")
+		)
+		(pin "3"
+			(uuid "1fa2384b-195c-49f3-85bf-0f4c0ef3e5ad")
+		)
+		(pin "5"
+			(uuid "a890446c-3e3b-462f-8689-07b6e8ef7207")
+		)
+		(pin "8"
+			(uuid "5e4e2def-d0c7-4567-a250-387e46473d47")
+		)
+		(pin "G1"
+			(uuid "0e3d3b51-0cb7-4f8e-a359-64644f85ac0c")
+		)
+		(pin "4"
+			(uuid "fcbbe319-b5a0-432d-8f8d-a4f82365a493")
+		)
+		(pin "7"
+			(uuid "04bd2994-6191-4b75-b803-91a24b51f60a")
+		)
+		(pin "G2"
+			(uuid "c16da1bd-145d-4835-bc71-04d626f5862f")
+		)
+		(pin "G3"
+			(uuid "d36db797-5db8-4d8b-a0c4-ee536536a447")
+		)
+		(instances
+			(project "Synth Head Snoot"
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7450,6 +8117,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9b2592-8082-431b-9706-de01061e2992")
+		(property "Reference" "#PWR033"
+			(at 280.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2083a226-bf1b-445c-9442-921f4241f849")
+		)
+		(instances
+			(project "Synth Head Snoot"
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 30.48 151.13 270)
 		(unit 1)
@@ -7709,6 +8443,73 @@
 			(project "Synth Head Snoot"
 				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 274.32 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deec6589-602f-4283-9504-637500ee807e")
+		(property "Reference" "#PWR032"
+			(at 270.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 278.13 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 274.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e81faa-4f70-4820-9057-2a7c5d76b35a")
+		)
+		(instances
+			(project "Synth Head Snoot"
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
