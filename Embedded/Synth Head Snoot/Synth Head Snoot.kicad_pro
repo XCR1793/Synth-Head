@@ -386,6 +386,10 @@
     [
       "21ee9593-8ebd-414d-84a8-ce99618c58c3",
       "Root"
+    ],
+    [
+      "314edb18-6a25-4f2c-b48e-1b6b43da3715",
+      "3V3 Regulator"
     ]
   ],
   "text_variables": {}
