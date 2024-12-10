@@ -1,4 +1,11 @@
-25446342633149964
+25453277945479898
+5V_Regulator_Fixed_LM1084IT
+TO254P1054X470X1955-3
+
+
+0
+3
+3
 6028_Reverse_Mount_LED_Addressable
 6028_Reverse_Mount
 
@@ -65092,6 +65099,27 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Mosfet_DIT090N06
+TO254P1010X450X1980-3B
+
+
+0
+3
+3
+Mosfet_RQ3E100BNTB
+TRANS_RQ3E100BNTB
+
+
+0
+5
+5
+Mosfet_RSC002P03
+RSC002P03
+
+
+0
+3
+3
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
