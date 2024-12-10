@@ -4604,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 252.73) (xy 106.68 250.19)
+			(xy 99.06 252.73) (xy 99.06 250.19)
 		)
 		(stroke
 			(width 0)
@@ -4674,7 +4674,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 252.73) (xy 123.19 252.73)
+			(xy 118.11 252.73) (xy 115.57 252.73)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 252.73) (xy 109.22 252.73)
+			(xy 99.06 252.73) (xy 101.6 252.73)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 252.73) (xy 123.19 250.19)
+			(xy 115.57 252.73) (xy 115.57 250.19)
 		)
 		(stroke
 			(width 0)
@@ -5044,10 +5044,10 @@
 		)
 		(uuid 4d014030-1e7f-463c-b45f-fc3668a0a845)
 	)
-	(text_box "Note: GPS add Active Antenna Support & Antenna PCB Coax Port"
+	(text_box "Not Implemented\n- Cable Down Neck\n- CAN Driver"
 		(exclude_from_sim no)
-		(at 58.42 229.87 0)
-		(size 39.37 5.08)
+		(at 165.1 25.4 0)
+		(size 21.59 7.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -5061,7 +5061,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "7389157c-8c20-4d1a-8e93-78797c0992e3")
+		(uuid "17c34fb5-0d8f-4cb3-b9f3-426bd035d6f4")
 	)
 	(text_box "ESP32 S3 Based\n- GPS: Neo M7-0-000\n- IMU: ICM20948\n- Env: BME280\n- FFC to-from Mask\n- FFC to-from GPU\n- FFC to-from PDU\n- Neck LED Strip\n- Cable to Back Head\n- Micro SD Card\n- CAN Driver: Currently Unknown\n- 3V3 to 5V Signal Buffer (LEDS)"
 		(exclude_from_sim no)
@@ -5930,7 +5930,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 125.73 252.73 0)
+		(at 118.11 252.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5940,7 +5940,7 @@
 		)
 		(uuid "848f30c5-8957-456f-8896-ff9edcc851b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.2833 252.73 0)
+			(at 124.6633 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6238,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 109.22 252.73 0)
+		(at 101.6 252.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6248,7 +6248,7 @@
 		)
 		(uuid "de428bbd-b6bd-4b42-93f7-5c2f67bd8926")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.7128 252.73 0)
+			(at 108.0928 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 246.38 0)
+		(at 99.06 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6896,7 +6896,7 @@
 		(fields_autoplaced yes)
 		(uuid "14f59168-1a5a-4cf0-8201-5824896c760f")
 		(property "Reference" "R7"
-			(at 109.22 245.1099 0)
+			(at 101.6 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6905,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 247.6499 0)
+			(at 101.6 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.902 246.38 90)
+			(at 97.282 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 246.38 0)
+			(at 99.06 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6932,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 246.38 0)
+			(at 99.06 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9193,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 242.57 0)
+		(at 99.06 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9202,7 +9202,7 @@
 		(fields_autoplaced yes)
 		(uuid "930194e1-ad3b-469f-ad4c-c28582a18633")
 		(property "Reference" "#PWR067"
-			(at 106.68 246.38 0)
+			(at 99.06 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9211,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 237.49 0)
+			(at 99.06 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 242.57 0)
+			(at 99.06 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +9228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 242.57 0)
+			(at 99.06 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,7 +9237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 242.57 0)
+			(at 99.06 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10358,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 246.38 0)
+		(at 115.57 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10367,7 +10367,7 @@
 		(fields_autoplaced yes)
 		(uuid "c033d786-6268-422c-a4db-78665fac439a")
 		(property "Reference" "R8"
-			(at 125.73 245.1099 0)
+			(at 118.11 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10376,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 125.73 247.6499 0)
+			(at 118.11 247.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.412 246.38 90)
+			(at 113.792 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10394,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 246.38 0)
+			(at 115.57 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10403,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 246.38 0)
+			(at 115.57 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11514,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 123.19 242.57 0)
+		(at 115.57 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11523,7 +11523,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec343326-3adb-4946-b908-1387c030a479")
 		(property "Reference" "#PWR068"
-			(at 123.19 246.38 0)
+			(at 115.57 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11532,7 +11532,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 123.19 237.49 0)
+			(at 115.57 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,7 +11540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 242.57 0)
+			(at 115.57 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,7 +11549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 242.57 0)
+			(at 115.57 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,7 +11558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 242.57 0)
+			(at 115.57 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
