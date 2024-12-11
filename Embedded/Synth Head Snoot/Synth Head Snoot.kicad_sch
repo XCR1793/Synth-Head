@@ -5,6 +5,125 @@
 	(uuid "21ee9593-8ebd-414d-84a8-ce99618c58c3")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -1543,6 +1662,80 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAX98357AETE_T_1_0"
+				(pin no_connect line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4552,6 +4745,12 @@
 		(uuid "f9402d07-2a82-47dd-b07d-7d51d638b72d")
 	)
 	(junction
+		(at 146.05 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96b83f9-0afd-420f-9105-1ab1797db96f")
+	)
+	(junction
 		(at 43.18 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4682,6 +4881,16 @@
 			(type default)
 		)
 		(uuid "226f83d8-8628-458b-abb8-814ae40a3e5f")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b8be34-d880-43ba-b7ac-ae736a848798")
 	)
 	(wire
 		(pts
@@ -4865,6 +5074,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7429535-99ef-4b82-8198-1f756de38379")
+	)
+	(wire
+		(pts
 			(xy 52.07 95.25) (xy 52.07 97.79)
 		)
 		(stroke
@@ -4932,6 +5151,16 @@
 			(type default)
 		)
 		(uuid "d76741a7-1f4e-4bac-860b-24d8bf8a6d82")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0a30bf-ae31-49b4-8b44-24064adf7a51")
 	)
 	(wire
 		(pts
@@ -5005,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 147.32 63.5)
+			(xy 143.51 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5981,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
 			(at 142.24 233.68 0)
 			(effects
 				(font
@@ -6018,6 +6247,136 @@
 			(project ""
 				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 139.7 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da5d1bd-25ca-41da-8de3-c9432909132f")
+		(property "Reference" "J6"
+			(at 140.335 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 140.335 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38964bdc-9fc0-4ccc-a09e-18714b8e2eaf")
+		)
+		(instances
+			(project "Synth Head Snoot"
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 139.7 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167fa9be-6d04-4abc-a6dd-5624c5b799f1")
+		(property "Reference" "J5"
+			(at 140.335 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 140.335 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5040d894-1f6d-482b-a6d8-1515af8fc007")
+		)
+		(instances
+			(project ""
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels"
 			(at 67.31 236.22 0)
 			(effects
 				(font
@@ -6952,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+		(property "Footprint" "MicroSD_MSD_1_A:CUI_MSD-1-A"
 			(at 314.96 185.42 0)
 			(effects
 				(font
@@ -7289,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FFC [S]"
 			(at 26.67 222.25 0)
 			(effects
 				(font
@@ -7297,7 +7656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FFC_Connector:FFC Aliexpress 0.5mm 12P"
 			(at 30.48 232.41 0)
 			(effects
 				(font
@@ -7430,6 +7789,73 @@
 			(project ""
 				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6915a5ba-0337-4f03-a08b-529d5d1be78f")
+		(property "Reference" "TP2"
+			(at 149.86 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Touch Pad"
+			(at 149.86 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9f3139f-c410-4887-a118-baf18a9acb22")
+		)
+		(instances
+			(project "Synth Head Snoot"
+				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8586,7 +9012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 143.51 58.42 0)
 			(effects
 				(font
@@ -9334,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX98357AETE_T:QFN50P300X300X80-17N"
+		(property "Footprint" "I2S_Audio_MAX98357A:QFN50P300X300X80-17N"
 			(at 114.3 238.76 0)
 			(effects
 				(font
@@ -9461,6 +9887,18 @@
 		(pin "16"
 			(uuid "bbb0981b-029f-41a5-a2e8-5429c99345df")
 		)
+		(pin "12"
+			(uuid "14cdcdd5-64dc-49d9-b6cc-03d7e7ddc792")
+		)
+		(pin "13"
+			(uuid "bd1426cd-843d-4d3d-899a-cb1af7083a6f")
+		)
+		(pin "5"
+			(uuid "340b2b02-0136-43ae-b51a-047394243261")
+		)
+		(pin "6"
+			(uuid "c5b9a565-2bac-4384-a6e7-726d5d610823")
+		)
 		(instances
 			(project ""
 				(path "/21ee9593-8ebd-414d-84a8-ce99618c58c3"
@@ -9565,7 +10003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
 			(at 190.5 231.14 0)
 			(effects
 				(font

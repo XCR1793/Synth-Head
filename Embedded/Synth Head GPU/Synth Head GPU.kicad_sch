@@ -8254,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FFC_Connector:FFC Aliexpress 0.5mm 6P"
 			(at 157.48 233.68 0)
 			(effects
 				(font
@@ -8734,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FFC_Connector:FFC Aliexpress 0.5mm 6P"
 			(at 173.99 233.68 0)
 			(effects
 				(font
@@ -9087,7 +9087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 61.722 241.3 90)
 			(effects
 				(font
@@ -9409,7 +9409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
 			(at 254 262.89 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
 			(at 264.16 262.89 0)
 			(effects
 				(font
@@ -9911,7 +9911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 109.22 234.95 0)
 			(effects
 				(font
@@ -10800,7 +10800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 47.752 191.77 90)
 			(effects
 				(font
@@ -11069,7 +11069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCA9535RTWR:QFN50P400X400X80-25N"
+		(property "Footprint" "IO_Expander_TCA9535RTWR:QFN50P400X400X80-25N"
 			(at 110.49 171.45 0)
 			(effects
 				(font
@@ -11494,7 +11494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.242 191.77 90)
 			(effects
 				(font
@@ -13243,7 +13243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.032 90.17 90)
 			(effects
 				(font
@@ -13578,7 +13578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FFC_Connector:FFC Aliexpress 0.5mm 12P"
 			(at 124.46 236.22 0)
 			(effects
 				(font

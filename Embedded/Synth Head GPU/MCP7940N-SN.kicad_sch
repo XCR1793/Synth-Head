@@ -1083,7 +1083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BH-25C-1:BAT_BH-25C-1"
+		(property "Footprint" "Battery_BH25C-1:BAT_BH-25C-1"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -1258,7 +1258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.62 81.5848 0)
 			(effects
 				(font
@@ -1395,7 +1395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 174.9552 109.22 0)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.7152 109.22 0)
 			(effects
 				(font
@@ -1734,7 +1734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 134.62 96.52 0)
 			(effects
 				(font

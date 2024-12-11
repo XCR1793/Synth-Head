@@ -1358,7 +1358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.94 88.138 90)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "U.FL-R-SMT-1_10_:HRS_U.FL-R-SMT-1_10_"
+		(property "Footprint" "RF_Connector_U-FL:HRS_U.FL-R-SMT-1_10_"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 162.56 97.79 0)
 			(effects
 				(font
