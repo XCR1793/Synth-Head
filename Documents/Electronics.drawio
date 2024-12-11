@@ -534,7 +534,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jat-RG9IB87KazeTX-1b" name="Connectors &amp; Connections">
-    <mxGraphModel dx="798" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1411,10 +1411,10 @@
         <mxCell id="S9ooeRUAAhdFOPKgssfq-64" value="GPIO 0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
           <mxGeometry y="40" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-68" value="UART RX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-77" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
           <mxGeometry y="60" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-67" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-67" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
           <mxGeometry y="80" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S9ooeRUAAhdFOPKgssfq-81" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
@@ -1423,7 +1423,7 @@
         <mxCell id="S9ooeRUAAhdFOPKgssfq-82" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
           <mxGeometry y="120" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-70" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-70" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
           <mxGeometry y="140" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S9ooeRUAAhdFOPKgssfq-69" value="UART TX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-43" vertex="1">
@@ -1444,10 +1444,10 @@
         <mxCell id="S9ooeRUAAhdFOPKgssfq-66" value="GPIO 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
           <mxGeometry y="40" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-77" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-68" value="UART RX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
           <mxGeometry y="60" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-76" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-76" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
           <mxGeometry y="80" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S9ooeRUAAhdFOPKgssfq-85" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
@@ -1456,7 +1456,7 @@
         <mxCell id="S9ooeRUAAhdFOPKgssfq-86" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
           <mxGeometry y="120" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S9ooeRUAAhdFOPKgssfq-75" value="PWR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
+        <mxCell id="S9ooeRUAAhdFOPKgssfq-75" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
           <mxGeometry y="140" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="S9ooeRUAAhdFOPKgssfq-78" value="GND" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=0" parent="S9ooeRUAAhdFOPKgssfq-47" vertex="1">
