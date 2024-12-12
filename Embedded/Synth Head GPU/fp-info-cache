@@ -1,4 +1,11 @@
-25434206245757766
+25455011999838552
+5V_Regulator_Fixed_LM1084IT
+TO254P1054X470X1955-3
+
+
+0
+3
+3
 6028_Reverse_Mount_LED_Addressable
 6028_Reverse_Mount
 
@@ -43434,6 +43441,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_Pogo Pins
+2.2mm 20P
+
+
+0
+20
+20
 Connector_RJ
 RJ9_Evercom_5301-440xxx_Horizontal
 Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf
@@ -54732,6 +54746,13 @@ DIOAD1060W80L520D270
 0
 2
 2
+Diode_ESD_ESDA25W
+SOT65P210X110-3N
+
+
+0
+3
+3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -57938,6 +57959,20 @@ heatsink
 0
 0
 0
+I2S_Audio_MAX98357A
+QFN50P300X300X80-17N
+
+
+0
+17
+17
+IO_Expander_TCA9535RTWR
+QFN50P400X400X80-25N
+
+
+0
+25
+25
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -63566,6 +63601,13 @@ solder jumper open
 0
 5
 3
+LED_Red_SMD
+WL-SMCW_0603
+<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0603, SMT, 2pins<Br>1.6x0.8x0.7mm(LXWXH)
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -64798,6 +64840,13 @@ Logo_Original_Size
 0
 0
 0
+MicroSD_MSD_1_A
+CUI_MSD-1-A
+
+
+0
+13
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -65057,6 +65106,27 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+Mosfet_DIT090N06
+TO254P1010X450X1980-3B
+
+
+0
+3
+3
+Mosfet_RQ3E100BNTB
+TRANS_RQ3E100BNTB
+
+
+0
+5
+3
+Mosfet_RSC002P03
+RSC002P03
+
+
+0
+3
+3
 Motors
 Vybronics_VZ30C1T8219732L
 Vibration motor, 2.3-3.2V, 14000rpm, 0.7G, https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf
@@ -88437,6 +88507,13 @@ PCB antenna
 0
 20
 1
+RF_Connector_U-FL
+HRS_U.FL-R-SMT-1_10_
+
+
+0
+3
+2
 RF_Converter
 Anaren_0805_2012Metric-6
 https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
@@ -102409,6 +102486,13 @@ AMPHENOL_10171746-00021LF
 0
 16
 16
+USB_PD_Controller_STUSB4500QTR
+QFN50P400X400X90-25N
+
+
+0
+25
+25
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

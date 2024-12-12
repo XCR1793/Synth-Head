@@ -1,4 +1,4 @@
-25453278091672409
+25455011999838552
 5V_Regulator_Fixed_LM1084IT
 TO254P1054X470X1955-3
 
@@ -43441,6 +43441,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_Pogo Pins
+2.2mm 20P
+
+
+0
+20
+20
 Connector_RJ
 RJ9_Evercom_5301-440xxx_Horizontal
 Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf

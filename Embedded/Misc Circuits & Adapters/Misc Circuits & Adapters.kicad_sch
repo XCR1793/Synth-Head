@@ -4935,6 +4935,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 96.52) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131d1670-a413-47f3-8f62-06974eb59db9")
+	)
+	(wire
+		(pts
 			(xy 101.6 152.4) (xy 106.68 152.4)
 		)
 		(stroke
@@ -5032,16 +5042,6 @@
 			(type default)
 		)
 		(uuid "56a1e07a-7234-4cc6-8710-936c5f23abb5")
-	)
-	(wire
-		(pts
-			(xy 151.13 96.52) (xy 156.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f275c7-5ced-4ba3-8e11-e965084307a8")
 	)
 	(wire
 		(pts
@@ -5155,16 +5155,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 93.98) (xy 151.13 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b04957b-1c43-43c5-8062-89db0674af3c")
-	)
-	(wire
-		(pts
 			(xy 163.83 104.14) (xy 163.83 91.44)
 		)
 		(stroke
@@ -5262,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "bbc2b78b-415d-4468-b9f3-20530034b320")
+	)
+	(wire
+		(pts
+			(xy 151.13 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb9cfe3-bc66-4270-8149-de612e7588d0")
 	)
 	(wire
 		(pts
@@ -8037,7 +8037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 158.75 35.56 0)
 			(effects
 				(font
@@ -8445,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 233.68 54.61 0)
 			(effects
 				(font
@@ -9025,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 158.75 60.96 0)
 			(effects
 				(font
@@ -9873,7 +9873,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 96.52 270)
+		(at 151.13 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9882,7 +9882,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ef1524c-fee6-4b42-8280-0cc6c1a5be6d")
 		(property "Reference" "#PWR027"
-			(at 144.78 96.52 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +9891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 96.5201 90)
+			(at 147.32 93.9801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 96.52 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 96.52 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 96.52 0)
+			(at 151.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10208,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 93.98 90)
+		(at 151.13 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10217,7 +10217,7 @@
 		(fields_autoplaced yes)
 		(uuid "90cac6bc-b8e4-401e-9911-52b0e5765f0c")
 		(property "Reference" "#PWR026"
-			(at 154.94 93.98 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10226,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 93.9801 90)
+			(at 147.32 96.5201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 93.98 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +10244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 93.98 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 93.98 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +10366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -10585,7 +10585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 118.11 147.32 0)
 			(effects
 				(font
@@ -11332,7 +11332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -11981,7 +11981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 114.3 50.8 0)
 			(effects
 				(font
@@ -12067,7 +12067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 114.3 78.74 0)
 			(effects
 				(font

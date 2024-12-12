@@ -5,42 +5,29 @@
 	(uuid "4935b6d0-6c6f-4905-ac04-68ba2e01f83b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery_BH25C-1:BH-25C-1"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at -3.81 3.81 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "BH-25C-1"
-				(at -3.81 -5.08 0)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BH-25C-1:BAT_BH-25C-1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,53 +45,48 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" ""
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "8.7mm"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Adam Tech"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "BH-25C-1_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.905) (xy -2.54 1.905)
-					)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -113,10 +95,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 2.54) (xy -3.175 1.27)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -125,70 +107,22 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -2.54 0)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -196,37 +130,37 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "N"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "P"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -846,6 +780,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035e77a9-e80a-4af2-aab0-a8d2486ac349")
+	)
+	(wire
+		(pts
 			(xy 134.62 77.47) (xy 134.62 82.55)
 		)
 		(stroke
@@ -903,6 +847,16 @@
 			(type default)
 		)
 		(uuid "5bcd970d-b2fb-4f79-a677-273f26299f46")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e49771-82f8-4865-a7f6-676bb5684912")
 	)
 	(wire
 		(pts
@@ -1052,115 +1006,6 @@
 			(project ""
 				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744/ce85dc55-1419-4d63-9264-fc9921616ee0"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery_BH25C-1:BH-25C-1")
-		(at 144.78 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d261d12-2d4c-42c4-85da-e499e9f01fcc")
-		(property "Reference" "BT1"
-			(at 144.145 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BH-25C-1"
-			(at 144.145 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery_BH25C-1:BAT_BH-25C-1"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.7mm"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Adam Tech"
-			(at 144.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P"
-			(uuid "b5e7a240-8838-433f-a5d3-5053cbf7ae59")
-		)
-		(pin "N"
-			(uuid "2a1eb6e2-b125-4a2e-9429-4a7fb89c52ed")
-		)
-		(instances
-			(project ""
-				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744/ce85dc55-1419-4d63-9264-fc9921616ee0"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -1701,6 +1546,76 @@
 			(project ""
 				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744/ce85dc55-1419-4d63-9264-fc9921616ee0"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 143.51 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2edb059-1745-4d91-92c6-61b33ade3d55")
+		(property "Reference" "J5"
+			(at 147.32 76.8349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Coin Cell"
+			(at 147.32 79.3749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85ffaccd-7c3b-41cf-a6c7-e7d79ddc622b")
+		)
+		(pin "2"
+			(uuid "c03c5717-0ede-4f5b-be43-c5faba3b2b15")
+		)
+		(instances
+			(project ""
+				(path "/4998c09e-38fe-44d6-8b9c-0225a8617744/ce85dc55-1419-4d63-9264-fc9921616ee0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
