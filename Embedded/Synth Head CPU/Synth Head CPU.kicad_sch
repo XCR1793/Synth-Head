@@ -4820,7 +4820,7 @@
 		(uuid "75835369-e644-42d0-90d2-0f043e3fe7ea")
 	)
 	(junction
-		(at 379.73 68.58)
+		(at 387.35 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7862ffa0-17f4-4633-a8dd-6c5e4d25c497")
@@ -5012,16 +5012,6 @@
 			(type default)
 		)
 		(uuid "0ca1d681-a12c-44e1-904f-53ed13091985")
-	)
-	(wire
-		(pts
-			(xy 368.3 68.58) (xy 379.73 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbf8b1d-02ec-4a32-bf71-7825f58ef462")
 	)
 	(wire
 		(pts
@@ -5385,7 +5375,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 81.28) (xy 379.73 78.74)
+			(xy 387.35 81.28) (xy 387.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5395,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 55.88) (xy 379.73 58.42)
+			(xy 387.35 55.88) (xy 387.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5472,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "a831b2fa-7434-40a4-bb61-0b185d217e13")
+	)
+	(wire
+		(pts
+			(xy 368.3 68.58) (xy 387.35 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cd00e0-6dc9-4668-9b55-2ed782eca45f")
 	)
 	(wire
 		(pts
@@ -5555,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 66.04) (xy 379.73 68.58)
+			(xy 387.35 66.04) (xy 387.35 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5791,22 +5791,22 @@
 	)
 	(global_label "CPU-GPU GPIO 3"
 		(shape input)
-		(at 63.5 34.29 0)
+		(at 276.86 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0b533979-48d1-4be7-baeb-1e1ec4c03761")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4186 34.29 0)
+			(at 256.9414 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5835,7 +5835,7 @@
 	)
 	(global_label "CPU-Mask TX"
 		(shape input)
-		(at 87.63 26.67 0)
+		(at 368.3 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5845,7 +5845,7 @@
 		)
 		(uuid "0ef1ce98-fe3e-4921-a534-7d05e7ab4f17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8594 26.67 0)
+			(at 384.5294 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,22 +5923,22 @@
 	)
 	(global_label "CPU-Mask GPIO 0"
 		(shape input)
-		(at 87.63 21.59 0)
+		(at 276.86 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "19880ba9-efe7-4499-93d2-9f4caaa36aae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3347 21.59 0)
+			(at 256.1553 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6011,22 +6011,22 @@
 	)
 	(global_label "CPU-GPU TX"
 		(shape input)
-		(at 63.5 29.21 0)
+		(at 276.86 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2aba0b6c-25a0-4d2d-acc0-ecccf3e1eb3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.9433 29.21 0)
+			(at 261.4167 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6055,29 +6055,29 @@
 	)
 	(global_label "SD Card MISO"
 		(shape input)
-		(at 134.62 26.67 0)
+		(at 276.86 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2c8ce5f6-954e-4938-ac6b-e2545e1def4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9703 26.67 0)
+			(at 260.5097 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SD Card CLK"
 		(shape input)
-		(at 134.62 21.59 0)
+		(at 368.3 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6087,7 +6087,7 @@
 		)
 		(uuid "2ed6a7d5-4fd1-405a-b064-719852dc49d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9422 21.59 0)
+			(at 383.6222 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,22 +6143,22 @@
 	)
 	(global_label "3V3 Neck LEDS"
 		(shape input)
-		(at 152.4 36.83 180)
+		(at 368.3 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3e39eaaf-f6cb-4796-82be-fb1c2b18e786")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7796 36.83 0)
+			(at 385.9204 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6275,29 +6275,29 @@
 	)
 	(global_label "GPS Reset"
 		(shape input)
-		(at 129.54 31.75 180)
+		(at 368.3 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "51da27ca-011c-4bf3-9025-e678f0f4c197")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6367 31.75 0)
+			(at 381.2033 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CPU-GPU RX"
 		(shape input)
-		(at 63.5 26.67 0)
+		(at 368.3 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6307,7 +6307,7 @@
 		)
 		(uuid "5474342f-8df4-4e44-8356-7334e2710037")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.2457 26.67 0)
+			(at 384.0457 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6319,7 @@
 	)
 	(global_label "CPU-PDU SDA"
 		(shape input)
-		(at 87.63 36.83 0)
+		(at 368.3 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6329,7 +6329,7 @@
 		)
 		(uuid "55b12dbc-3853-48a4-b606-25a8dbc38c6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4643 36.83 0)
+			(at 385.1343 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,22 +6341,22 @@
 	)
 	(global_label "SD Card Detect"
 		(shape input)
-		(at 134.62 31.75 0)
+		(at 276.86 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5c7d7352-0202-40f3-8b8f-f6760129cbed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.3613 31.75 0)
+			(at 259.1187 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6429,7 +6429,7 @@
 	)
 	(global_label "CPU-PDU SCL"
 		(shape input)
-		(at 87.63 34.29 0)
+		(at 368.3 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6439,7 +6439,7 @@
 		)
 		(uuid "66a84634-825b-471e-8306-407b09be63d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4038 34.29 0)
+			(at 385.0738 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,29 +6495,29 @@
 	)
 	(global_label "GPS UART TX"
 		(shape input)
-		(at 129.54 21.59 180)
+		(at 368.3 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6912d885-d7de-4a96-9f75-a9f0afe94e14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0363 21.59 0)
+			(at 383.8037 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SD Card CS"
 		(shape input)
-		(at 134.62 29.21 0)
+		(at 368.3 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6527,7 +6527,7 @@
 		)
 		(uuid "74956008-367f-44e2-beeb-d64672809bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8536 29.21 0)
+			(at 382.5336 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6539,7 @@
 	)
 	(global_label "CPU-Mask RX"
 		(shape input)
-		(at 87.63 24.13 0)
+		(at 368.3 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6549,7 +6549,7 @@
 		)
 		(uuid "7eff3202-8cca-42e6-b635-82676c362b38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.1618 24.13 0)
+			(at 384.8318 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,22 +6605,22 @@
 	)
 	(global_label "3V3 Jaw LEDS"
 		(shape input)
-		(at 152.4 39.37 180)
+		(at 368.3 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "866a5f6f-9c90-4078-913b-75493e0c567f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.8683 39.37 0)
+			(at 384.8317 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6649,7 +6649,7 @@
 	)
 	(global_label "SD Card MOSI"
 		(shape input)
-		(at 134.62 24.13 0)
+		(at 368.3 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6659,7 +6659,7 @@
 		)
 		(uuid "9693211b-cb97-476f-8a22-6690e4d862e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9703 24.13 0)
+			(at 384.6503 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,22 +6671,22 @@
 	)
 	(global_label "CPU-GPU GPIO 1"
 		(shape input)
-		(at 63.5 24.13 0)
+		(at 276.86 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "98d555b7-cc25-4e10-b427-1cf71c3a95ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4186 24.13 0)
+			(at 256.9414 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6781,22 +6781,22 @@
 	)
 	(global_label "GPS UART RX"
 		(shape input)
-		(at 129.54 24.13 180)
+		(at 368.3 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "afbaba3e-1983-4519-9edc-e3d84f35a7d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.7339 24.13 0)
+			(at 384.1061 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6825,44 +6825,44 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 129.54 29.21 180)
+		(at 368.3 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b399d3aa-349b-4539-88a7-261a5220153c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.0472 29.21 0)
+			(at 374.7928 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 129.54 26.67 180)
+		(at 368.3 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b9543bdd-a7de-419c-8994-a284460d2d7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9867 26.67 0)
+			(at 374.8533 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7001,44 +7001,44 @@
 	)
 	(global_label "CPU-GPU GPIO 2"
 		(shape input)
-		(at 63.5 31.75 0)
+		(at 276.86 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e1bda58c-c7ba-4a23-8c5f-d1bfd820b5aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4186 31.75 0)
+			(at 256.9414 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CPU-Mask GPIO 1"
 		(shape input)
-		(at 87.63 29.21 0)
+		(at 276.86 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e72e6504-0a4c-4fea-b837-dbf4c91b31d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3347 29.21 0)
+			(at 256.1553 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7111,22 +7111,22 @@
 	)
 	(global_label "CPU-GPU GPIO 0"
 		(shape input)
-		(at 63.5 21.59 0)
+		(at 276.86 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f7b29870-7747-43e9-b1f6-1c9e023ad702")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4186 21.59 0)
+			(at 256.9414 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7514,7 +7514,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 379.73 62.23 0)
+		(at 387.35 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7523,7 +7523,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c44f06c-24ab-4806-9998-a7e56c01ec6f")
 		(property "Reference" "R2"
-			(at 382.27 60.9599 0)
+			(at 389.89 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7532,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 382.27 63.4999 0)
+			(at 389.89 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7541,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 377.952 62.23 90)
+			(at 385.572 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 62.23 0)
+			(at 387.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7559,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 379.73 62.23 0)
+			(at 387.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 379.73 81.28 0)
+		(at 387.35 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8342,7 +8342,7 @@
 		(fields_autoplaced yes)
 		(uuid "27e9ba11-b66c-467c-b981-4a8f1f540241")
 		(property "Reference" "#PWR021"
-			(at 379.73 87.63 0)
+			(at 387.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.73 86.36 0)
+			(at 387.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 81.28 0)
+			(at 387.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 81.28 0)
+			(at 387.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 81.28 0)
+			(at 387.35 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +9949,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 379.73 55.88 0)
+		(at 387.35 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9958,7 +9958,7 @@
 		(fields_autoplaced yes)
 		(uuid "653c62a5-13b3-4912-be08-80c71e22e55c")
 		(property "Reference" "#PWR020"
-			(at 379.73 59.69 0)
+			(at 387.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9967,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 379.73 50.8 0)
+			(at 387.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 55.88 0)
+			(at 387.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +9984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 55.88 0)
+			(at 387.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +9993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 379.73 55.88 0)
+			(at 387.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,7 +12428,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 379.73 73.66 270)
+		(at 387.35 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12437,7 +12437,7 @@
 		(fields_autoplaced yes)
 		(uuid "c51b548f-cdf1-4ad3-9875-fb8d7a357139")
 		(property "Reference" "BootSW1"
-			(at 383.54 72.3899 90)
+			(at 391.16 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12446,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 383.54 74.9299 90)
+			(at 391.16 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +12455,7 @@
 			)
 		)
 		(property "Footprint" "Button-R-667843:Button-R-667843"
-			(at 384.81 73.66 0)
+			(at 392.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 384.81 73.66 0)
+			(at 392.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12473,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 379.73 73.66 0)
+			(at 387.35 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
